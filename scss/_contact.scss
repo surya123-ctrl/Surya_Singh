@@ -1,0 +1,45 @@
+.contact{
+    height: 100%;
+    padding-top: 40vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: 
+        linear-gradient(
+            to right,
+            rgba($primary-color, 0.9),
+            rgba($primary-color, 0.3)
+        ),
+        url(../images/surya2.jpg) 50% 15%;
+    background-size: cover;
+
+   h2{
+       font-size: 3rem;
+       margin-bottom: 2rem;
+   }
+   &-list{
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-gap: 0.5rem;
+       font-size: 1.5rem;
+       text-align: center;
+   }
+   a{
+       color: $secondary-color;
+       margin-bottom: 4rem;
+   }
+   a:hover{
+       @include transition-ease;
+       color: $primary-color;
+   }
+   .social-icons{
+       position: initial;
+       margin-top: 4rem;
+
+       a{
+        color: #fff;
+        margin-bottom: 4rem;
+    }
+   }
+}

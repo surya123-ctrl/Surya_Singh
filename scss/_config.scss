@@ -1,0 +1,44 @@
+$primary-color: #272727;
+// $secondary-color: #ff652f;
+// $secondary-color: #C3073F;
+// $secondary-color: #66FCF1;
+$secondary-color: #3AAFA9;
+$twitter: #1DA1F2;
+$linkedin: #0E76A8;
+$facebook: #4267B2;
+$instagram: #bc2a8d;
+$github: #232125;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin transition-ease {
+    transition: all 0.5s ease-in-out;
+}
+
+@function set-text-color($color){
+    @if(lightness($color)>40%){
+        @return #000;
+    } @else{
+        @return #fff;
+    }
+}
+
+@mixin media-md{
+    @media screen and (min-width: 768px){
+        @content;
+    }
+}
+@mixin media-lg{
+    @media screen and (min-width: 1024px){
+        @content;
+    }
+}
+@mixin media-xl{
+    @media screen and (min-width: 1600px){
+        @content;
+    }
+}

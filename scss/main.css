@@ -26,7 +26,7 @@
 }
 
 .home-name-last {
-  color: #ff652f;
+  color: #e2e624;
   font-weight: 700;
 }
 
@@ -148,7 +148,7 @@
 }
 
 .nav .menu-nav-item.active > a {
-  color: #ff652f;
+  color: #e2e624;
 }
 
 .nav .menu-nav-link {
@@ -162,7 +162,7 @@
 }
 
 .nav .menu-nav-link:hover {
-  color: #ff652f;
+  color: #e2e624;
 }
 
 .menu-nav-item:nth-child(1) {
@@ -183,6 +183,11 @@
 .menu-nav-item:nth-child(4) {
   -webkit-transition-delay: 0.55s;
           transition-delay: 0.55s;
+}
+
+.menu-nav-item:nth-child(5) {
+  -webkit-transition-delay: 0.65s;
+          transition-delay: 0.65s;
 }
 
 .about {
@@ -237,7 +242,7 @@
 .about .jobs-job {
   background: #414141;
   padding: 0.5rem;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 5px solid #e2e624;
 }
 
 .about .jobs-job h2, .about .jobs-job h3 {
@@ -310,7 +315,7 @@ main {
 
 .projects-item {
   position: relative;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 5px solid #e2e624;
   overflow: hidden;
   cursor: pointer;
 }
@@ -326,7 +331,7 @@ main {
   left: 0;
   height: 100%;
   width: 100%;
-  background: #ff652f;
+  background: #e2e624;
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -418,7 +423,7 @@ main {
 }
 
 .contact a {
-  color: #ff652f;
+  color: #e2e624;
   margin-bottom: 4rem;
 }
 
@@ -530,7 +535,7 @@ a {
 }
 
 .text-secondary {
-  color: #ff652f;
+  color: #e2e624;
 }
 
 header {

@@ -45,7 +45,7 @@ main{
         a{
             padding: 0.4rem;
             
-            .fab, .fa{
+            .fab, .fa, .fas{
                 @include transition-ease;
             }
             .fa-twitter{
@@ -71,6 +71,16 @@ main{
             .fa-github{
                 &:hover{
                     color: $github;
+                }
+            }
+            .fa-code{
+                &:hover{
+                    color: $leetcode;
+                }
+            }
+            .fa-chess-queen{
+                &:hover{
+                    color: $codechef;
                 }
             }
         }

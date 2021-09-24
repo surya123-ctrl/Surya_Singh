@@ -26,7 +26,7 @@
 }
 
 .home-name-last {
-  color: #3AAFA9;
+  color: #ff652f;
   font-weight: 700;
 }
 
@@ -148,7 +148,7 @@
 }
 
 .nav .menu-nav-item.active > a {
-  color: #3AAFA9;
+  color: #ff652f;
 }
 
 .nav .menu-nav-link {
@@ -162,7 +162,7 @@
 }
 
 .nav .menu-nav-link:hover {
-  color: #3AAFA9;
+  color: #ff652f;
 }
 
 .menu-nav-item:nth-child(1) {
@@ -237,7 +237,7 @@
 .about .jobs-job {
   background: #414141;
   padding: 0.5rem;
-  border-bottom: 5px solid #3AAFA9;
+  border-bottom: 5px solid #ff652f;
 }
 
 .about .jobs-job h2, .about .jobs-job h3 {
@@ -310,7 +310,7 @@ main {
 
 .projects-item {
   position: relative;
-  border-bottom: 5px solid #3AAFA9;
+  border-bottom: 5px solid #ff652f;
   overflow: hidden;
   cursor: pointer;
 }
@@ -326,7 +326,7 @@ main {
   left: 0;
   height: 100%;
   width: 100%;
-  background: #3AAFA9;
+  background: #ff652f;
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -418,7 +418,7 @@ main {
 }
 
 .contact a {
-  color: #3AAFA9;
+  color: #ff652f;
   margin-bottom: 4rem;
 }
 
@@ -530,7 +530,7 @@ a {
 }
 
 .text-secondary {
-  color: #3AAFA9;
+  color: #ff652f;
 }
 
 header {
@@ -555,7 +555,7 @@ main .social-icons a {
   padding: 0.4rem;
 }
 
-main .social-icons a .fab, main .social-icons a .fa {
+main .social-icons a .fab, main .social-icons a .fa, main .social-icons a .fas {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
@@ -579,9 +579,11 @@ main .social-icons a .fa-instagram:hover {
 main .social-icons a .fa-github:hover {
   color: #232125;
 }
+
 main .social-icons a .fa-code:hover {
   color: #e3c920;
 }
+
 main .social-icons a .fa-chess-queen:hover {
   color: #bd2b32;
 }
